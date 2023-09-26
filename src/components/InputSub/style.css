@@ -1,0 +1,66 @@
+.input-sub {
+  align-items: center;
+  background-color: var(--black-whitewhite);
+  border: 1px solid;
+  border-radius: 6px;
+  display: flex;
+  gap: 8px;
+  height: 48px;
+  padding: 16px;
+  position: relative;
+  width: 256px;
+}
+
+.input-sub .superheros-limited {
+  font-family: var(--body-m-body-m-font-family);
+  font-size: var(--body-m-body-m-font-size);
+  font-style: var(--body-m-body-m-font-style);
+  font-weight: var(--body-m-body-m-font-weight);
+  letter-spacing: var(--body-m-body-m-letter-spacing);
+  line-height: var(--body-m-body-m-line-height);
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.input-sub .mon-espace-de-wrapper {
+  align-items: center;
+  background-color: var(--black-whitewhite);
+  display: inline-flex;
+  justify-content: center;
+  left: 8px;
+  padding: 4px;
+  position: absolute;
+  top: -9px;
+}
+
+.input-sub .mon-espace-de {
+  color: var(--black-whiteblack-800);
+  font-family: var(--body-XS-body-XS-font-family);
+  font-size: var(--body-XS-body-XS-font-size);
+  font-style: var(--body-XS-body-XS-font-style);
+  font-weight: var(--body-XS-body-XS-font-weight);
+  letter-spacing: var(--body-XS-body-XS-letter-spacing);
+  line-height: var(--body-XS-body-XS-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.input-sub.state-9-default {
+  border-color: var(--black-whiteblack-800);
+}
+
+.input-sub.state-9-filled {
+  border-color: var(--black-whiteblack-100);
+  box-shadow: var(--shadow-5);
+}
+
+.input-sub.state-9-default .superheros-limited {
+  color: var(--black-whiteblack-300);
+}
+
+.input-sub.state-9-filled .superheros-limited {
+  color: var(--black-whiteblack-800);
+}

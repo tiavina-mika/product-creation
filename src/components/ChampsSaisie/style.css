@@ -1,0 +1,64 @@
+.champs-saisie {
+  align-items: flex-start;
+  border: 1px solid;
+  border-radius: 6px;
+  display: flex;
+  height: 150px;
+  padding: 16px;
+  position: relative;
+  width: 326px;
+}
+
+.champs-saisie .d-crivez-votre-probl {
+  flex: 1;
+  font-family: var(--body-m-body-m-multi-font-family);
+  font-size: var(--body-m-body-m-multi-font-size);
+  font-style: var(--body-m-body-m-multi-font-style);
+  font-weight: var(--body-m-body-m-multi-font-weight);
+  letter-spacing: var(--body-m-body-m-multi-letter-spacing);
+  line-height: var(--body-m-body-m-multi-line-height);
+  margin-top: -1px;
+  position: relative;
+}
+
+.champs-saisie .div-wrapper {
+  align-items: center;
+  background-color: var(--black-whitewhite);
+  display: inline-flex;
+  height: 18px;
+  justify-content: center;
+  left: 8px;
+  padding: 4px;
+  position: absolute;
+  top: -9px;
+}
+
+.champs-saisie .subtitle-2 {
+  color: var(--black-whiteblack-800);
+  font-family: var(--body-XS-body-XS-font-family);
+  font-size: var(--body-XS-body-XS-font-size);
+  font-style: var(--body-XS-body-XS-font-style);
+  font-weight: var(--body-XS-body-XS-font-weight);
+  letter-spacing: var(--body-XS-body-XS-letter-spacing);
+  line-height: var(--body-XS-body-XS-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.champs-saisie.state-7-default {
+  border-color: var(--black-whiteblack-800);
+}
+
+.champs-saisie.state-7-filled {
+  border-color: var(--variable-collection-black-200);
+}
+
+.champs-saisie.state-7-default .d-crivez-votre-probl {
+  color: var(--black-whiteblack-300);
+}
+
+.champs-saisie.state-7-filled .d-crivez-votre-probl {
+  color: var(--black-whiteblack-800);
+}

@@ -1,0 +1,215 @@
+.produits-cration {
+  align-items: center;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  height: 844px;
+  position: relative;
+  width: 390px;
+}
+
+.produits-cration .primary-button-instance {
+  display: flex !important;
+  left: 26px !important;
+  position: absolute !important;
+  top: 767px !important;
+  width: 326px !important;
+  z-index: 2 !important;
+}
+
+.produits-cration .champs {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 8px;
+  padding: 0px 0px 16px;
+  position: relative;
+  z-index: 0;
+}
+
+.produits-cration .header-settings-n {
+  align-items: center;
+  background-color: var(--black-whitewhite);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: var(--black-whiteblack-100);
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 16px;
+  padding: 32px 32px 16px;
+  position: relative;
+  width: 390px;
+}
+
+.produits-cration .frame-2 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+}
+
+.produits-cration .retour {
+  height: 24px !important;
+  position: relative !important;
+  width: 24px !important;
+}
+
+.produits-cration .frame-3 {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+  width: 326px;
+}
+
+.produits-cration .driver-details {
+  align-self: stretch;
+  color: var(--black-whiteblack-600);
+  font-family: var(--body-s-body-s-multi-font-family);
+  font-size: var(--body-s-body-s-multi-font-size);
+  font-style: var(--body-s-body-s-multi-font-style);
+  font-weight: var(--body-s-body-s-multi-font-weight);
+  letter-spacing: var(--body-s-body-s-multi-letter-spacing);
+  line-height: var(--body-s-body-s-multi-line-height);
+  margin-top: -1px;
+  position: relative;
+}
+
+.produits-cration .fid-lisation {
+  color: var(--black-whiteblack-800);
+  font-family: "Product Sans-Bold", Helvetica;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 0.22px;
+  line-height: 30px;
+  position: relative;
+  width: 326px;
+}
+
+.produits-cration .container {
+  align-items: center;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 16px;
+  padding: 16px 32px;
+  position: relative;
+  width: 390px;
+}
+
+.produits-cration .text-wrapper-5 {
+  color: #2f2f2f;
+  font-family: var(--body-m-body-m-bold-font-family);
+  font-size: var(--body-m-body-m-bold-font-size);
+  font-style: var(--body-m-body-m-bold-font-style);
+  font-weight: var(--body-m-body-m-bold-font-weight);
+  letter-spacing: var(--body-m-body-m-bold-letter-spacing);
+  line-height: var(--body-m-body-m-bold-line-height);
+  margin-top: -1px;
+  position: relative;
+  width: 326px;
+}
+
+.produits-cration .input-gnral {
+  display: flex !important;
+  width: 326px !important;
+}
+
+.produits-cration .input-g-n-ral-instance {
+  border-color: var(--black-whiteblack-200) !important;
+  flex: 1 !important;
+  flex-grow: 1 !important;
+  width: unset !important;
+}
+
+.produits-cration .design-component-instance-node {
+  gap: 16px !important;
+}
+
+.produits-cration .input-gnral-2 {
+  margin-right: -1px !important;
+}
+
+.produits-cration .input-gnral-3 {
+  margin-right: unset !important;
+}
+
+.produits-cration .champs-saisie-instance {
+  border-color: var(--black-whiteblack-200) !important;
+  flex: 0 0 auto !important;
+  height: unset !important;
+}
+
+.produits-cration .text-wrapper-6 {
+  color: #2f2f2f;
+  font-family: var(--body-m-body-m-bold-font-family);
+  font-size: var(--body-m-body-m-bold-font-size);
+  font-style: var(--body-m-body-m-bold-font-style);
+  font-weight: var(--body-m-body-m-bold-font-weight);
+  letter-spacing: var(--body-m-body-m-bold-letter-spacing);
+  line-height: var(--body-m-body-m-bold-line-height);
+  position: relative;
+  width: 326px;
+}
+
+.produits-cration .frame-4 {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 8px;
+  position: relative;
+  width: 323px;
+}
+
+.produits-cration .frame-5 {
+  align-items: center;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 4px;
+  position: relative;
+  width: 262px;
+}
+
+.produits-cration .baguette-magique {
+  height: 16px !important;
+  position: relative !important;
+  width: 16px !important;
+}
+
+.produits-cration .p {
+  color: var(--primaryblue-night-700);
+  flex: 1;
+  font-family: var(--body-s-body-s-font-family);
+  font-size: var(--body-s-body-s-font-size);
+  font-style: var(--body-s-body-s-font-style);
+  font-weight: var(--body-s-body-s-font-weight);
+  letter-spacing: var(--body-s-body-s-letter-spacing);
+  line-height: var(--body-s-body-s-line-height);
+  position: relative;
+}
+
+.produits-cration .frame-6 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 16px;
+  justify-content: center;
+  position: relative;
+}
+
+.produits-cration .tag-driver-bloc-produit-workflow {
+  flex: 0 0 auto !important;
+}
+
+.produits-cration .input-sub-instance {
+  border-color: var(--black-whiteblack-200) !important;
+  width: 326px !important;
+  z-index: -1 !important;
+}

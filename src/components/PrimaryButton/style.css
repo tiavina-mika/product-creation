@@ -1,0 +1,56 @@
+.primary-button {
+  align-items: center;
+  border-radius: 60px;
+  display: inline-flex;
+  gap: 8px;
+  height: 48px;
+  justify-content: center;
+  padding: 16px;
+  position: relative;
+}
+
+.primary-button .continuer {
+  font-family: var(--body-m-body-m-font-family);
+  font-size: var(--body-m-body-m-font-size);
+  font-style: var(--body-m-body-m-font-style);
+  font-weight: var(--body-m-body-m-font-weight);
+  letter-spacing: var(--body-m-body-m-letter-spacing);
+  line-height: var(--body-m-body-m-line-height);
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.primary-button.disabled {
+  background-color: var(--black-whiteblack-100);
+}
+
+.primary-button.error {
+  background-color: var(--secondaryred-700);
+}
+
+.primary-button.default {
+  background-color: var(--primaryblue-night-700);
+  box-shadow: 0px 0px 4px #00000040;
+}
+
+.primary-button.hover {
+  background-color: var(--primaryblue-night-400);
+  box-shadow: 0px 0px 4px #00000040;
+}
+
+.primary-button.disabled .continuer {
+  color: var(--black-whiteblack-600);
+}
+
+.primary-button.error .continuer {
+  color: var(--black-whitewhite);
+}
+
+.primary-button.default .continuer {
+  color: var(--black-whitewhite);
+}
+
+.primary-button.hover .continuer {
+  color: var(--black-whitewhite);
+}

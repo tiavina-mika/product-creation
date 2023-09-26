@@ -1,0 +1,1 @@
+export { InputGNRal } from "./InputGNRal";
